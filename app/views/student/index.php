@@ -23,8 +23,9 @@ if ($_SESSION['role'] != 'student') {
     <script src="../../assets/tailwind/tailwind.js"></script>
     <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/student.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../assets/icon/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -45,7 +46,7 @@ if ($_SESSION['role'] != 'student') {
                     <div class="container d-flex align-content-between justify-content-between profile-card p-3">
                         <h2 class="my-auto">PROFILE</h2>
                         <div class="icon">
-                            <i class="fa-solid fa-user"></i>
+                            <i class="bi bi-person-fill"></i>
                         </div>
                     </div>
                 </div>
@@ -55,7 +56,7 @@ if ($_SESSION['role'] != 'student') {
                     <div class="container d-flex align-content-between justify-content-between course-card p-3">
                         <h2 class="my-auto">COURSE</h2>
                         <div class="icon">
-                            <i class="fa-solid fa-user"></i>
+                            <i class="bi bi-book-fill"></i>
                         </div>
                     </div>
                 </div>

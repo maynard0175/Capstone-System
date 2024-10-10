@@ -11,9 +11,10 @@ img.logo {
 .profile-card, .course-card {
     width: 250px !important;
     background: #38b6ff;
+    border-radius: 5px
 }
 
-i.fa-user {
+.icon i {
     font-size:40px;
     color: #164966
 }
