@@ -43,7 +43,7 @@ if ($_SESSION['role'] != 'student') {
 
            <div class="container d-flex align-items-center justify-content-center">
                 <div class="container mb-4 d-flex align-items-center justify-content-center profile-container">
-                    <div class="container d-flex align-content-between justify-content-between profile-card p-3">
+                    <div class="container d-flex align-content-between justify-content-between profile-card p-2">
                         <h2 class="my-auto">PROFILE</h2>
                         <div class="icon">
                             <i class="bi bi-person-fill"></i>
@@ -53,7 +53,7 @@ if ($_SESSION['role'] != 'student') {
            </div>
            <div class="container d-flex align-items-center justify-content-center">
                 <div class="container course-container">
-                    <div class="container d-flex align-content-between justify-content-between course-card p-3">
+                    <div class="container d-flex align-content-between justify-content-between course-card p-2">
                         <h2 class="my-auto">COURSE</h2>
                         <div class="icon">
                             <i class="bi bi-book-fill"></i>
