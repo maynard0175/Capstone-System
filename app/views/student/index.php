@@ -34,6 +34,10 @@ if ($_SESSION['role'] != 'student') {
         <div class="container text-center d-flex align-items-center justify-content-center">
             <img src="../../assets/img/logo.png" alt="" class="img-fluid text-center">
         </div>
+
+        <h3 class="text-danger">
+            This is a sample commit for the collaboration....
+        </h3>
     </div>
 
     <script>
