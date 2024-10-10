@@ -30,14 +30,16 @@ if ($_SESSION['role'] != 'student') {
         <p>Student session started.....</p>
         <button onclick="logout()" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Logout</button>
     </div> -->
-    <div class="text-danger vh-100 container-fluid d-flex align-items-center justify-content-center">
-        <div class="container text-center d-flex align-items-center justify-content-center">
-            <img src="../../assets/img/logo.png" alt="" class="img-fluid text-center">
-        </div>
+    <div class="vh-100 container-fluid d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="container text-center d-flex align-items-center justify-content-center">
+                <img src="../../assets/img/logo.png" alt="" class="img-fluid text-center">
+            </div>
 
-        <h3 class="text-danger">
-            This is a sample commit for the collaboration....
-        </h3>
+            <h2 class="text-center mt-2 mb-3 fw-bold">Dashboard Overview</h2>
+
+
+        </div>
     </div>
 
     <script>
