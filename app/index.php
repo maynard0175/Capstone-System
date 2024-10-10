@@ -18,6 +18,10 @@ if(isset($_SESSION['user_id'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/index.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="./assets/tailwind/tailwind.js"></script>
 </head>
 
@@ -30,7 +34,7 @@ if(isset($_SESSION['user_id'])){
         <a href="confirmation.php" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-center text-sm md:text-base w-full">Login</a>
         <p class="text-sm md:text-base text-center">Need an account?</p>
         <a href="register.php" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-center text-sm md:text-base w-full">Sign-up</a>
-        <img src="./assets/img/infotech.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
+        <img src="./assets/img/infotech.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 mt-5 rounded-full object-cover infotech-img mt-5">
 
     </div>
 
