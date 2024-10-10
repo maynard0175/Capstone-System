@@ -1,0 +1,27 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img.logo {
+    height: 120px !important
+}
+
+.profile-card, .course-card {
+    width: 250px !important;
+    background: #38b6ff;
+}
+
+i.fa-user {
+    font-size:40px;
+    color: #164966
+}
+
+.dashboard-container {
+    background: #b7c9e2;
+}
+
+.infotech-img {
+    height: 90px
+}
