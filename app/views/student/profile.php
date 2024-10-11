@@ -41,12 +41,12 @@
                 </li>
             </ul>
             <form class="d-flex align-items-center justify-content-center">
-                <div class="icon my-auto my-auto">
-                <i class="bi bi-bell"></i>
+                <div class="dashboard-icon my-auto my-auto me-3">
+                    <i class="bi bi-bell-fill"></i>
                 </div>
                 <div class="user-info d-flex align-items-center justify-content-center my-auto">
-                    <div class="icon my-auto">
-                    <i class="bi bi-person-circle"></i>
+                    <div class="dashboard-icon my-auto me-2">
+                        <i class="bi bi-person-circle"></i>
                     </div>
                     <p class="my-auto">Maynard Bihasa</p>
                 </div>
@@ -54,12 +54,12 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid py-3 px-5 bg-secondary">
+    <div class="container-fluid py-3 px-5 profile-body">
         <div class="row">
             <div class="col-md-5">
-                <div class="container bg-white p-2">
+                <div class="container bg-white px-2 py-4 profile-info-left">
                     <div class="text-center">
-                        <img src="../../assets/img/logo.png" alt="" class="logo">
+                        <img src="../../assets/img/default-user-icon.png" alt="" class="logo">
                     </div>
                     <h5 class="text-center">Maynard Bihasa</h5>
                     <h6 class="text-secondary text-center">22-01-0694</h6>
@@ -98,6 +98,31 @@
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Civil Status</p>
                         <span>Single</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                        <p class="fw-semibold my-0 py-0">Current Address</p>
+                        <span>N/A</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                        <p class="fw-semibold my-0 py-0">Permanent Address</p>
+                        <span>N/A</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                        <p class="fw-semibold my-0 py-0">Nationality</p>
+                        <span>Filipino</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                        <p class="fw-semibold my-0 py-0">Religion</p>
+                        <span>Roman Catholic</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                        <p class="fw-semibold my-0 py-0">Dialect</p>
+                        <span>Tagalog</span>
                     </div>
                 </div>
             </div>

@@ -32,3 +32,16 @@ img.logo {
 .dashboard-navbar {
     background: #38b6ff !important;
 }
+
+.dashboard-icon i {
+    font-size: 30px !important;
+    color: #164966
+}
+
+.profile-info-left {
+    border-radius: 5px
+}
+
+.profile-body {
+    background: #b7c9e2;
+}
