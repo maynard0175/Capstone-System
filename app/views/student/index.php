@@ -43,12 +43,14 @@ if ($_SESSION['role'] != 'student') {
 
            <div class="container d-flex align-items-center justify-content-center">
                 <div class="container mb-4 d-flex align-items-center justify-content-center profile-container">
-                    <div class="container d-flex align-content-between justify-content-between profile-card p-1">
-                        <h2 class="my-auto">PROFILE</h2>
-                        <div class="icon">
-                            <i class="bi bi-person-fill"></i>
+                    <a href="../student/profile.php">
+                        <div class="container d-flex align-content-between justify-content-between profile-card p-2">
+                            <h2 class="my-auto">PROFILE</h2>
+                            <div class="icon">
+                                <i class="bi bi-person-fill"></i>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
            </div>
            <div class="container d-flex align-items-center justify-content-center">
