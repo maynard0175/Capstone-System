@@ -64,65 +64,70 @@ if(isset($_SESSION['user_id'])){
                 Upon clicking the I AGREE button, I hereby give my consent for the processing, release, and retention of personal information.</p>
             <div class="flex justify-end gap-4 mt-4">
                 <button id="agree-btn" class="bg-[#007BFF] text-white px-4 py-2 rounded-md">I Agree</button>
-                <button id="disagree-btn" class="bg-gray-500 text-white px-4 py-2 rounded-md">I Do Not Agree</button>
+                <button id="disagree-btn" class="bg-red-500 text-white px-4 py-2 rounded-md">I Do Not Agree</button>
             </div>
         </div>
     </div>
 
     <div class="max-w-md w-full p-6 rounded-lg flex flex-col items-center justify-center gap-4">
 
-        <img src="./assets/img/logo.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
-        <p class="text-lg md:text-xl font-medium text-center">Create your account</p>
+        <img src="./assets/img/logo.png" alt="Profile Picture" class="w-26 h-26 md:w-34 md:h-34 rounded-full object-cover">
+        <p class="text-lg md:text-xl font-medium text-center">Register an account</p>
 
         <!-- Registration Form -->
-        <form id="registration-form" class="w-full flex flex-col gap-4">
+        <form id="registration-form" class="w-full flex flex-col gap-2">
             <!-- First Name -->
             <div class="w-full">
-                <label for="first-name" class="block text-sm font-medium text-gray-700">First Name</label>
+
                 <input type="text" id="first_name" name="first-name" required
-                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" required>
+                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Fisrtname">
+                    <i class=" right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
             </div>
 
             <!-- Last Name -->
             <div class="w-full">
-                <label for="last-name" class="block text-sm font-medium text-gray-700">Last Name</label>
+               
                 <input type="text" id="last_name" name="last-name" required
-                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" required>
-            </div>
+                    class="mt-1.2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Lastname">
+                    <i class=" right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+                    Please use your true name
+            </div> 
 
             <!-- Email -->
             <div class="relative w-full">
-                <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
-                <input type="email" id="email" name="email" required
-                    class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" required>
-                <i class="fas fa-envelope absolute right-3 top-10 transform -translate-y-1/2 text-gray-500"></i>
+               
+                <input type="text" id="email" name="email" required
+                    class="mt-3 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Email">
+                <i class="fas fa-envelope absolute right-3 top-8 transform -translate-y-1/2 text-gray-500"></i>
+                Please use a valid and active email address
+
             </div>
 
             <!-- Role Selection -->
             <div class="w-full">
-                <label for="role" class="block text-sm font-medium text-gray-700">Role</label>
-                <select id="role" name="role" required
-                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                    <option value="" disabled selected>Select a role</option>
-                    <option value="administrator">Administrator</option>
-                    <option value="student">Student</option>
+        
+                <select id="select" name="select" required
+                    class="mt-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                    <option value="" disabled selected>--Select--</option>
+                    <option value="administrator">Old Student</option>
+                    <option value="student">Freshmen/Transferee</option>
                 </select>
             </div>
 
             <!-- Password -->
             <div class="relative w-full">
-                <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+               
                 <input type="password" id="password" name="password" required
-                    class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" required>
-                <i class="fas fa-lock absolute right-3 top-10 transform -translate-y-1/2 text-gray-500"></i>
+                    class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Password">
+                <i class="fas fa-lock absolute right-3 top-5 transform -translate-y-1/2 text-gray-500"></i>
             </div>
 
             <!-- Retype Password -->
             <div class="relative w-full">
-                <label for="retype-password" class="block text-sm font-medium text-gray-700">Retype Password</label>
+            
                 <input type="password" id="retype_password" name="retype-password" required
-                    class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" required>
-                <i class="fas fa-lock absolute right-3 top-10 transform -translate-y-1/2 text-gray-500"></i>
+                    class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Retype Password">
+                <i class="fas fa-lock absolute right-3 top-5 transform -translate-y-1/2 text-gray-500"></i>
             </div>
 
             <!-- Data Privacy Checkbox -->
@@ -134,15 +139,17 @@ if(isset($_SESSION['user_id'])){
             </div>
 
             <!-- Submit Button -->
-            <button type="submit" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                Register
+            <button type="submit" class="bg-[#007BFF] mt-4 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                Sign Up
             </button>
         </form>
         <a href="confirmation.php" class="text-blue-900">I already have an account</a>
         <a href="index.php" class="text-blue-900 underline"><i class="fas fa-home"></i>
             Home</a>
+            <img src="./assets/img/infotech.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 mt-5 rounded-full object-cover infotech-img img-fluid">
 
     </div>
+    
 
     <script>
         // JavaScript to handle modal functionality and checkbox

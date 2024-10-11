@@ -36,14 +36,14 @@ if ($_SESSION['role'] != 'student') {
     <div class=" vh-100 container-fluid d-flex align-items-center justify-content-center dashboard-container">
         <div class="container">
             <div class="container text-center d-flex align-items-center justify-content-center">
-                <img src="../../assets/img/logo.png" alt="" class="img-fluid text-center logo">
+                <img src="../../assets/img/logo.png" alt="" class=" w-26 h-26 md:w-34 md:h-34 rounded-full object-cover">
             </div>
 
             <h2 class="text-center my-4">Dashboard Overview</h2>
 
            <div class="container d-flex align-items-center justify-content-center">
                 <div class="container mb-4 d-flex align-items-center justify-content-center profile-container">
-                    <div class="container d-flex align-content-between justify-content-between profile-card p-2">
+                    <div class="container d-flex align-content-between justify-content-between profile-card p-1">
                         <h2 class="my-auto">PROFILE</h2>
                         <div class="icon">
                             <i class="bi bi-person-fill"></i>
@@ -53,7 +53,7 @@ if ($_SESSION['role'] != 'student') {
            </div>
            <div class="container d-flex align-items-center justify-content-center">
                 <div class="container course-container">
-                    <div class="container d-flex align-content-between justify-content-between course-card p-2">
+                    <div class="container d-flex align-content-between justify-content-between course-card p-1">
                         <h2 class="my-auto">COURSE</h2>
                         <div class="icon">
                             <i class="bi bi-book-fill"></i>
@@ -63,7 +63,7 @@ if ($_SESSION['role'] != 'student') {
            </div>
            <!-- <button onclick="logout()" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Logout</button> -->
             <div class="mt-5 container d-flex align-items-center justify-content-center">
-                <img src="../../assets/img/infotech.png" alt="" class="img-fluid infotech-img">
+                <img src="../../assets/img/infotech.png" alt="" class="w-24 h-24 md:w-32 md:h-32 mt-1 rounded-full object-cover infotech-img img-fluid">
             </div>
 
         </div>

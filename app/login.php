@@ -37,7 +37,7 @@ if(isset($_SESSION['user_id'])){
 
     <div class="max-w-sm w-full  p-6 flex flex-col items-center justify-center gap-4">
 
-        <img src="./assets/img/logo.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
+        <img src="./assets/img/logo.png" alt="Profile Picture" class="w-26 h-26 md:w-34 md:h-34 rounded-full object-cover">
         <p class="text-lg md:text-xl font-medium text-center">Sign in to start your session</p>
 
         <!-- Login Form -->

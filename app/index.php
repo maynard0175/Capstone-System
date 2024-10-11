@@ -29,11 +29,11 @@ if(isset($_SESSION['user_id'])){
 
     <div class="max-w-sm w-full p-6 flex flex-col items-center justify-center gap-4">
 
-        <img src="./assets/img/logo.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover">
+        <img src="./assets/img/logo.png" alt="Profile Picture" class="w-26 h-26 md:w-34 md:h-34 rounded-full object-cover">
         <p class="text-lg md:text-xl font-medium text-center">Login and start your session</p>
-        <a href="confirmation.php" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-center text-sm md:text-base w-full">Login</a>
-        <p class="text-sm md:text-base text-center">Need an account?</p>
-        <a href="register.php" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-center text-sm md:text-base w-full">Sign-up</a>
+        <a href="confirmation.php" class="bg-[#007BFF] text-white px-4 py-3 rounded-md text-center text-sm md:text-base w-full">Login</a>
+        <p class="mt-2 text-sm md:text-base text-center">Need an account?</p>
+        <a href="register.php" class="bg-[#007BFF] text-white px-4 py-3 rounded-md text-center text-sm md:text-base w-full">Sign-up</a>
         <img src="./assets/img/infotech.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 mt-5 rounded-full object-cover infotech-img mt-5">
 
     </div>
