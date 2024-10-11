@@ -48,7 +48,7 @@
                     <div class="dashboard-icon my-auto me-2">
                         <i class="bi bi-person-circle"></i>
                     </div>
-                    <p class="my-auto">Maynard Bihasa</p>
+                    <p class="my-auto fw-semibold">MAYNARD BIHASA</p>
                 </div>
             </form>
             </div>
@@ -124,57 +124,112 @@
                         <p class="fw-semibold my-0 py-0">Dialect</p>
                         <span>Tagalog</span>
                     </div>
+                    <hr>
+                    <div class="text-center my-0 py-0">
+                        <a href="" class="btn btn-primary p-2 my-0 profile-edit-btn">EDIT[1]</a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-7">
-            <div class="container bg-white p-2 mt-4">
-                    <!-- <div class="text-center">
-                        <img src="../../assets/img/logo.png" alt="" class="logo">
-                    </div> -->
-                    <h5 class="text-center">Maynard Bihasa</h5>
-                    <h6 class="text-secondary text-center">22-01-0694</h6>
-                    <h5 class="text-secondary text-center">BSIT-AP-3</h5>
-                    <hr>
-                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Status:</p>
-                        <span>Not Defined</span>
+                <div class="container bg-white p-3 mt-md-2 mt-4 profile-info-right-top">
+                    <div class="d-flex align-content-between justify-content-between">
+                        <p class="text-start fw-semibold">Other Important Information</p>
+                        <a href="" class="btn btn-primary p-2 my-0 profile-edit-btn">EDIT[2]</a>
                     </div>
-                    <hr>
-                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Birthdate:</p>
-                        <span>January 1, 2001</span>
-                    </div>
-                    <hr>
-                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Mobile No.</p>
-                        <span>09221234567</span>
-                    </div>
-                    <hr>
-                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold">Email</p>
-                        <span>juandelacruz@gmail.com</span>
-                    </div>
-                    <hr>
-                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Birthplace</p>
-                        <span>Silang, Cavite</span>
-                    </div>
-                    <hr>
-                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Sex</p>
-                        <span>Male</span>
-                    </div>
-                    <hr>
-                    <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Civil Status</p>
-                        <span>Single</span>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Father's Name:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Father's Occupation:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Mother's Name:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Mother's Occupation:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Guardian's Name:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Guardian's Occupation:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Living with a Family?</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 mb-0 mt-2">
+                                <p class="py-0 my-0">Are you a differently abled person?</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 mb-0">
+                                <p class="ms-4 my-auto">If yes, please specify</p>
+                                <input type="text" class="profile-info-right-input my-auto">
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 mb-0 mt-2">
+                                <p class="py-0 mb-0">Do you belong to a cultural minority group?</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 mb-0">
+                                <p class="ms-4 my-auto">If yes, please specify</p>
+                                <input type="text" class="profile-info-right-input my-auto">
+                            </div>
+                            <p class="fw-semibold mt-4 mb-0">In case of emergency:</p>
+                            <p class="my-0 py-0">Contact Name:</p>
+                            <p class="fw-semibold ms-3 my-0 py-0">N/A</p>
+                            <p class="my-0 py-0">Contact Email:</p>
+                            <p class="fw-semibold ms-3 my-0 py-0">N/A</p>
+                            <p class="my-0 py-0">Contact Address:</p>
+                            <p class="fw-semibold ms-3 my-0 py-0">N/A</p>
+                        </div>
                     </div>
                 </div>
+                <div class="container bg-white p-3 mt-md-2 mt-4 profile-info-right-bottom">
+                    <div class="d-flex align-content-between justify-content-between">
+                        <p class="text-start fw-semibold">Educational Background</p>
+                        <a href="" class="btn btn-primary p-2 my-0 profile-edit-btn">EDIT[3]</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Elementary:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="ms-3 py-0 my-0">Year Graduated:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Senior High School/Secondary:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="ms-3 py-0 my-0">Year Graduated:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="py-0 my-0">Collegiate:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            <div class="d-flex align-content-between justify-content-between py-0 my-0">
+                                <p class="ms-3 py-0 my-0">Year Graduated:</p>
+                                <span class="fw-semibold">N/A</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <!-- <div class="container-fluid d-flex align-items-center justify-content-center p-5">
-        <h2 class="text-center">This is a profile</h2>
-    </div> -->
 </body>
 </html>

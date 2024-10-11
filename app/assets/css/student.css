@@ -38,10 +38,22 @@ img.logo {
     color: #164966
 }
 
-.profile-info-left {
+.profile-info-left, .profile-info-right-top, .profile-info-right-bottom  {
     border-radius: 5px
 }
 
 .profile-body {
     background: #b7c9e2;
+}
+
+input.profile-info-right-input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50px !important
+}
+
+.profile-edit-btn,.profile-edit-btn:hover  {
+    background: #38b6ff !important;
+    border:none;
+    color: black !important
 }
