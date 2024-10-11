@@ -26,3 +26,9 @@ img.logo {
 .infotech-img {
     height: 90px
 }
+
+
+/* Dashboard Styles */
+.dashboard-navbar {
+    background: #38b6ff !important;
+}
