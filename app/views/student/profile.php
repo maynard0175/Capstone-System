@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/student.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="../../assets/icon/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../../assets/icon/bootstrap-icons.min.css">+
 </head>
 <body>
     <nav class="navbar container-fluid w-100 navbar-expand-lg dashboard-navbar">

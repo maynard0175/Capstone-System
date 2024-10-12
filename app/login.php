@@ -58,14 +58,18 @@ if(isset($_SESSION['user_id'])){
                     class="block w-full px-3 py-2  border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Password">
                 <i class="fas fa-lock absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
             </div>
+            
 
             <!-- Submit Button -->
             <button type="submit" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                 Sign In
             </button>
+            
+            
         </form>
         <img src="./assets/img/infotech.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 mt-5 rounded-full object-cover infotech-img img-fluid">
     </div>
+    
 
     <script>
         document.getElementById("login-form").addEventListener("submit", async function(event) {
