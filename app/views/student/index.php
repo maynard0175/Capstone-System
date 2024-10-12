@@ -65,9 +65,9 @@ if ($_SESSION['role'] != 'student') {
                     </a>
                 </div>
            </div>
-           <div class="text-center mt-5">
+           <!-- <div class="text-center mt-5">
                 <button onclick="logout()" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Logout</button>
-           </div>
+           </div> -->
             <div class="mt-5 container d-flex align-items-center justify-content-center">
                 <img src="../../assets/img/infotech.png" alt="" class="w-24 h-24 md:w-32 md:h-32 mt-1 rounded-full object-cover infotech-img img-fluid">
             </div>

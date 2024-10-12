@@ -46,10 +46,16 @@
                 </div>
                 <div class="user-info d-flex align-items-center justify-content-center my-auto">
                     <div class="dashboard-icon my-auto me-2">
-                        <i class="bi bi-person-circle"></i>
+                        <div class="dropdown">
+                                <i class="bi bi-person-circle profile-user-icon" data-bs-toggle="dropdown" aria-expanded="false" ></i>
+                            <ul class="dropdown-menu">
+                                <li><a href="../../logout.php" class="dropdown-item text-danger">Logout</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <p class="my-auto fw-semibold">MAYNARD BIHASA</p>
                 </div>
+
             </form>
             </div>
         </div>
@@ -231,5 +237,23 @@
             </div>
         </div>
     </div>
+    <!-- <script>
+        function logout() {
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You will be logged out",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, logout!",
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "../../logout.php";
+                }
+            });
+        }
+    </script>
+    <script src="../../assets/sweetalert/sweetalert2@11.js"></script> -->
 </body>
 </html>

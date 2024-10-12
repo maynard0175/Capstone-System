@@ -93,3 +93,7 @@ input.profile-info-right-input {
 .course-list-button-container {
     background: #f17233;
 }
+
+.profile-user-icon {
+    cursor:pointer
+}
