@@ -24,7 +24,7 @@
                     <p class="fw-semibold text-center mb-0 pb-0">School of Information Technology</p>
                     <p class="text-center mt-0 pt-0 pb-1">Courses Offered: <span class="fw-semibold">BSIT</span></p>
                     <div class="text-center course-card-button-container">
-                        <a href="" class="text-decoration-none m-3 text-black fs-6 fw-semibold">Click Here to Enter</a>
+                        <a href="../student/course-list.php" class="text-decoration-none m-3 text-black fs-6 fw-semibold">Click Here to Enter</a>
                     </div>
                 </div>
             </div>

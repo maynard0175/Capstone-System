@@ -80,3 +80,16 @@ input.profile-info-right-input {
 .course-icon {
     height: 80px
 }
+
+/* Course List Styles */
+.course-list-body {
+    border-radius: 5px;
+}
+
+.course-list-name {
+    background: #ff9743;
+}
+
+.course-list-button-container {
+    background: #f17233;
+}
