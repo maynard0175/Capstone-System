@@ -33,7 +33,7 @@ if ($_SESSION['role'] != 'student') {
         <p>Student session started.....</p>
         <button onclick="logout()" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Logout</button>
     </div> -->
-    <div class=" vh-100 container-fluid d-flex align-items-center justify-content-center dashboard-container">
+    <div class="container-fluid d-flex align-items-center justify-content-center dashboard-container">
         <div class="container">
             <div class="container text-center d-flex align-items-center justify-content-center">
                 <img src="../../assets/img/logo.png" alt="" class=" w-26 h-26 md:w-34 md:h-34 rounded-full object-cover">
@@ -55,15 +55,19 @@ if ($_SESSION['role'] != 'student') {
            </div>
            <div class="container d-flex align-items-center justify-content-center">
                 <div class="container course-container">
-                    <div class="container d-flex align-content-between justify-content-between course-card p-1">
-                        <h2 class="my-auto">COURSE</h2>
-                        <div class="icon">
-                            <i class="bi bi-book-fill"></i>
+                    <a href="../student/course.php">
+                        <div class="container d-flex align-content-between justify-content-between course-card p-1">
+                            <h2 class="my-auto">COURSE</h2>
+                            <div class="icon">
+                                <i class="bi bi-book-fill"></i>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
            </div>
-           <button onclick="logout()" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Logout</button>
+           <div class="text-center mt-5">
+                <button onclick="logout()" class="bg-[#007BFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Logout</button>
+           </div>
             <div class="mt-5 container d-flex align-items-center justify-content-center">
                 <img src="../../assets/img/infotech.png" alt="" class="w-24 h-24 md:w-32 md:h-32 mt-1 rounded-full object-cover infotech-img img-fluid">
             </div>

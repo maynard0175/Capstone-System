@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Course</title>
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/student.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../../assets/icon/bootstrap-icons.min.css">
 </head>
 <body>
+    <div class="p-2 mx-0 course-heading">
+        <h4 class="ms-4 pt-1">SELECT YOUR COURSE/DEPARTMENT</h4>
+    </div>
+    <div class="container-fluid course-body p-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container py-2 px-0 course-container">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="../../assets/img/bsit-icon.png" alt="" class="img-fluid course-icon">
+                    </div>
+                    <p class="fw-semibold text-center mb-0 pb-0">School of Information Technology</p>
+                    <p class="text-center mt-0 pt-0 pb-1">Courses Offered: <span class="fw-semibold">BSIT</span></p>
+                    <div class="text-center course-card-button-container">
+                        <a href="" class="text-decoration-none m-3 text-black fs-6 fw-semibold">Click Here to Enter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>

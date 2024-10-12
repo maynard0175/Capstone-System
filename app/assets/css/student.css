@@ -57,3 +57,26 @@ input.profile-info-right-input {
     border:none;
     color: black !important
 }
+
+/* Course Page Styles */
+.course-heading {
+    background: #38b6ff;
+}
+
+.course-body {
+    min-height: 100vh;
+    background: #b7c9e2;
+}
+
+.course-card-button-container {
+    border-top: 1.5px solid black
+}
+
+.course-container {
+    background: #ff9743;
+    border-radius: 5px !important
+}
+
+.course-icon {
+    height: 80px
+}
