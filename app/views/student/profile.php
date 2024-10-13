@@ -68,16 +68,16 @@
                         <img src="../../assets/img/default-user-icon.png" alt="" class="logo">
                     </div>
                     <h5 class="text-center">Maynard Bihasa</h5>
-                    <h6 class="text-secondary text-center">22-01-0694</h6>
+                    <h6 class="text-secondary text-center">0000-00-00</h6>
                     <h5 class="text-secondary text-center">BSIT-AP-3</h5>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Status:</p>
+                        <p class="fw-semibold my-0 py-0">Status</p>
                         <span>Not Defined</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
-                        <p class="fw-semibold my-0 py-0">Birthdate:</p>
+                        <p class="fw-semibold my-0 py-0">Birthdate</p>
                         <span>N/A</span>
                     </div>
                     <hr>
@@ -103,7 +103,7 @@
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Civil Status</p>
-                        <span>Not Define</span>
+                        <span>Not Defined</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">

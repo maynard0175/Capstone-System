@@ -27,10 +27,10 @@
                         <a href="../student/course-list.php" class="text-decoration-none m-3 text-black fs-6 fw-semibold">Click Here to Enter</a>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
         <div class="mt-5 pt-5 container d-flex align-item-center justify-content-center">
-        <img src="../../assets/img/infotech.png" alt="" class="w-24 h-24 md:w-32 md:h-32 mt-1 rounded-full object-cover infotech-img img-fluid mt-5">
+        <img src="../../assets/img/infotech.png" alt="" class="w-24 h-24 md:w-32 md:h-32 mt-2 rounded-full object-cover infotech-img img-fluid mt-5">
         </div>
     </div>
     
