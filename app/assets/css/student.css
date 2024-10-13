@@ -97,3 +97,14 @@ input.profile-info-right-input {
 .profile-user-icon {
     cursor:pointer
 }
+
+/* Course Info Page */
+.back-btn, .back-btn:hover {
+    background: #00bf63 !important;
+    color:black
+}
+
+.save-btn, .save-btn:hover {
+    background: #38b6ff !important;
+    color:black
+}
