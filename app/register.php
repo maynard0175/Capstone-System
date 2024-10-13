@@ -113,6 +113,7 @@ if(isset($_SESSION['user_id'])){
                     <option value="" disabled selected>--Select--</option>
                     <option value="administrator">Old Student</option>
                     <option value="student">Freshmen/Transferee</option>
+                    
                 </select>
             </div>
 
@@ -129,7 +130,7 @@ if(isset($_SESSION['user_id'])){
             
                 <input type="password" id="retype_password" name="retype-password" required
                     class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Retype Password">
-                <i class="fas fa-lock absolute right-3 top-5 transform -translate-y-1/2 text-gray-500"></i>
+                <i class="fas fa-sign-out-alt absolute right-3 top-5 transform -translate-y-1/2 text-gray-500"></i>
             </div>
 
             <!-- Data Privacy Checkbox -->

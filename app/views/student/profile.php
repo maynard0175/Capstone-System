@@ -49,7 +49,7 @@
                         <div class="dropdown">
                                 <i class="bi bi-person-circle profile-user-icon" data-bs-toggle="dropdown" aria-expanded="false" ></i>
                             <ul class="dropdown-menu">
-                                <li><a href="../../logout.php" class="dropdown-item text-danger">Logout</a></li>
+                                <li><a href="../../logout.php" class="dropdown-item text-danger">Sign out</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,12 +78,12 @@
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Birthdate:</p>
-                        <span>January 1, 2001</span>
+                        <span>N/A</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Mobile No.</p>
-                        <span>09221234567</span>
+                        <span>N/A</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
@@ -93,17 +93,17 @@
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Birthplace</p>
-                        <span>Silang, Cavite</span>
+                        <span>N/A</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Sex</p>
-                        <span>Male</span>
+                        <span>3x a day with midnight snack</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Civil Status</p>
-                        <span>Single</span>
+                        <span>Not Define</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
@@ -118,17 +118,17 @@
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Nationality</p>
-                        <span>Filipino</span>
+                        <span>N/A</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Religion</p>
-                        <span>Roman Catholic</span>
+                        <span>N/A</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Dialect</p>
-                        <span>Tagalog</span>
+                        <span>N/A</span>
                     </div>
                     <hr>
                     <div class="text-center my-0 py-0">
