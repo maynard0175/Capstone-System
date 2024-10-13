@@ -32,7 +32,7 @@
                         <span class="fw-medium"> [ BSIT-DD ] </span></p>
                     </div>
                     <div class="text-center course-list-button-container">
-                    <a href="#" class="p-2 text-decoration-none text-black">More Info</a>
+                    <a href="course-info.php" class="p-2 text-decoration-none text-black">More Info</a>
                     </div>
                 </div>
                 <div class="container mt-3">
@@ -41,7 +41,7 @@
                         <span class="fw-medium">[ BSIT-AP ] </span></p>
                     </div>
                     <div class="text-center course-list-button-container">
-                    <a href="#" class="p-2 text-decoration-none text-black">More Info</a>
+                    <a href="course-info.php" class="p-2 text-decoration-none text-black">More Info</a>
                     </div>
                 </div>
             </div>
