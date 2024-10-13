@@ -15,8 +15,8 @@
         <h4 class="ms-4 pt-1">SELECT YOUR COURSE/DEPARTMENT</h4>
     </div>
     <div class="container-fluid course-body p-4">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row mb-5 pb-5">
+            <div class="col-md-4 mb-5 pb-5">
                 <div class="container py-2 px-0 course-content">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="../../assets/img/bsit-icon.png" alt="" class="img-fluid course-icon">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-5 container d-flex align-item-center justify-content-center">
+        <div class="mt-5 pt-5 container d-flex align-item-center justify-content-center">
         <img src="../../assets/img/infotech.png" alt="" class="w-24 h-24 md:w-32 md:h-32 mt-1 rounded-full object-cover infotech-img img-fluid mt-5">
         </div>
     </div>
