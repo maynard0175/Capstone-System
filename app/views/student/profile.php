@@ -98,7 +98,7 @@
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Sex</p>
-                        <span>3x a day with midnight snack</span>
+                        <span>Not Defined</span>
                     </div>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
