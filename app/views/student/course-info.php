@@ -30,8 +30,8 @@
                             </select>
                         </div>
                         <div class="d-flex align-content-between justify-content-between mt-4">
-                            <a href="#" class="btn btn-success back-btn">Back</a>
-                            <a href="#" class="btn btn-primary save-btn"><i class="bi bi-floppy2-fill"></i> Save</a>
+                            <a href="course-list.php" class="btn btn-success back-btn">Back</a>
+                            <a href="profile.php" class="btn btn-primary save-btn"><i class="bi bi-floppy2-fill"></i> Save</a>
                         </div>
                     </form>
                 </div>
