@@ -67,7 +67,7 @@
                     <div class="text-center">
                         <img src="../../assets/img/default-user-icon.png" alt="" class="logo">
                     </div>
-                    <h5 class="text-center">Maynard Bihasa</h5>
+                    <h5 class="text-center">MAYNARD BIHASA</h5>
                     <h6 class="text-secondary text-center">0000-00-00</h6>
                     <h5 class="text-secondary text-center">BSIT-AP-3</h5>
                     <hr>
