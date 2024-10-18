@@ -13,31 +13,27 @@ if(isset($_SESSION['user_id'])){
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../assets/css/index.css">
-    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="./assets/tailwind/tailwind.js"></script>
+    <title>Admin Panel</title>
 </head>
-
-<body class="bg-[#B7C9E2] flex items-center justify-center min-h-screen p-4">
-
-    <div class="max-w-sm w-full p-6 flex flex-col items-center justify-center gap-4">
-
-        <img src="./assets/img/logo.png" alt="Profile Picture" class="w-26 h-26 md:w-34 md:h-34 rounded-full object-cover">
-        <p class="text-lg md:text-xl font-medium text-center">Login and start your session</p>
-        <a href="" class="bg-[#007BFF] text-white px-4 py-3 rounded-md text-center text-sm md:text-base w-full">Login</a>
-        <p class="mt-2 text-sm md:text-base text-center">Need an account?</p>
-        <a href="" class="bg-[#007BFF] text-white px-4 py-3 rounded-md text-center text-sm md:text-base w-full">Sign-up</a>
-        <img src="./assets/img/infotech.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 mt-5 rounded-full object-cover infotech-img mt-5">
-
+<body id="body-pd">
+    <header class="header" id="header">
+        <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+        <div class="header_img"> <img src="https://i.imgur.com/hczKIze.jpg" alt=""> </div>
+    </header>
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div> <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">BBBootstrap</span> </a>
+                <div class="nav_list"> <a href="#" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> </a> <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Users</span> </a> <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Messages</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span> </a> <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bar-chart-alt-2 nav_icon'></i> <span class="nav_name">Stats</span> </a> </div>
+            </div> <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
+        </nav>
     </div>
-
+    <!--Container Main start-->
+    <div class="height-100 bg-light">
+        <h4>Main Components</h4>
+    </div>
+    <!--Container Main end-->
 </body>
-
 </html>
