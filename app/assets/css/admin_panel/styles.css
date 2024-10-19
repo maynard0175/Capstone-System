@@ -6,6 +6,7 @@
     --first-color: #090321;
     --first-color-light: #AFA5D9;
     --white-color: #F7F6FB;
+    --navbar-bg: #38b6ff;
     --body-font: 'Nunito', sans-serif;
     --normal-font-size: 1rem;
     --z-fixed: 100
@@ -14,13 +15,17 @@
 *,
 ::before,
 ::after {
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+
+* {
+    font-family: var(--body-font);
 }
 
 body {
     position: relative;
     margin: var(--header-height) 0 0 0;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     transition: .5s
@@ -40,7 +45,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
-    background-color: var(--white-color);
+    background-color: var(--navbar-bg);
     z-index: var(--z-fixed);
     transition: .5s
 }
@@ -69,7 +74,7 @@ a {
     top: 0;
     left: -30%;
     width: var(--nav-width);
-    height: 100vh;
+    min-height: 100vh !important;
     background-color: var(--first-color);
     padding: .5rem 1rem 0 0;
     transition: .5s;
@@ -110,7 +115,7 @@ a {
 .nav_link {
     position: relative;
     color: var(--first-color-light);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     transition: .3s;
 }
 
