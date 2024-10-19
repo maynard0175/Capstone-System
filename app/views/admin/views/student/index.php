@@ -1,0 +1,1 @@
+<a href="../../../../logout.php" class="dropdown-item text-danger">Sign out</a>

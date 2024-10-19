@@ -29,8 +29,8 @@ if(isset($_SESSION['user_id'])){
     <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> -->
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
