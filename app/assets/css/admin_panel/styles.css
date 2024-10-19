@@ -2,7 +2,7 @@
 
 :root {
     --header-height: 3rem;
-    --nav-width: 68px;
+    --nav-width: 75px;
     --first-color: #090321;
     --first-color-light: #AFA5D9;
     --white-color: #F7F6FB;
@@ -136,7 +136,8 @@ a {
 }
 
 .active {
-    color: var(--white-color)
+    color: var(--white-color);
+    background: var(--navbar-bg);
 }
 
 .active::before {

@@ -21,13 +21,13 @@
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
         <div class="ms-5 text-uppercase fw-bolder">Enrollment System Management</div>
-        <div class="ms-auto">Info Tech S-Admin</div>
+        <div class="ms-auto fw-semibold">Info Tech S-Admin</div>
         <div class="header_img ms-2"> <img src="https://i.imgur.com/hczKIze.jpg" alt=""> </div>
     </header>
     <div class="l-navbar vh-100" id="nav-bar">
     <nav class="nav">
         <div>
-            <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">InfoTech</span> </a>
+            <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">ISM</span> </a>
             <div class="nav_list">
                 <a href="#" class="nav_link active" id="dashboardLink"> 
                     <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> 
@@ -35,60 +35,60 @@
                 
                 <!-- Users Link with Collapsible Submenu -->
                 <a href="#userSubmenu" class="nav_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="userSubmenu">
-                    <i class='bx bx-user nav_icon'></i> <span class="nav_name">Users</span>
+                    <i class='bx bx-user nav_icon'></i> <span class="nav_name">Sub Admin</span>
                 </a>
                 <div class="collapse" id="userSubmenu">
                     <ul class="list-unstyled ps-4">
                         <li>
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Add User</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Manage</a>
                         </li>
-                        <li class=""> <!-- Small margin below -->
+                        <!-- <li class="">
                             <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> View Users</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 
                 <!-- Messages Link with Collapsible Submenu -->
                 <a href="#messageSubmenu" class="nav_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="messageSubmenu">
-                    <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Messages</span>
+                    <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Registration</span>
                 </a>
                 <div class="collapse" id="messageSubmenu">
                     <ul class="list-unstyled ps-4">
                         <li>
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Send Message</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Pending Registration</a>
                         </li>
                         <li class=""> <!-- Small margin below -->
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> View Messages</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed Registration</a>
                         </li>
                     </ul>
                 </div>
 
                 <!-- Bookmark Link with Collapsible Submenu -->
                 <a href="#bookmarkSubmenu" class="nav_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="bookmarkSubmenu">
-                    <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span>
+                    <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Student Management</span>
                 </a>
                 <div class="collapse" id="bookmarkSubmenu">
                     <ul class="list-unstyled ps-4">
                         <li>
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Add Bookmark</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Manage</a>
                         </li>
-                        <li class=""> <!-- Small margin below -->
+                        <!-- <li class="">
                             <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> View Bookmarks</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 
                 <!-- Files Link with Collapsible Submenu -->
                 <a href="#fileSubmenu" class="nav_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="fileSubmenu">
-                    <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span>
+                    <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Class Management</span>
                 </a>
                 <div class="collapse" id="fileSubmenu">
                     <ul class="list-unstyled ps-4">
                         <li>
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Upload File</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Class</a>
                         </li>
                         <li class=""> <!-- Small margin below -->
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> View Files</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Class Schedule</a>
                         </li>
                     </ul>
                 </div>
