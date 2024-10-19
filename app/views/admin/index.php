@@ -1,13 +1,13 @@
 <?php 
-session_start();
-if(isset($_SESSION['user_id'])){
-    if(isset($_SESSION['role']) == 'student'){
-        header('Location: views/student/index.php');
-    }
-    else if(isset($_SESSION['role']) == 'administrator'){
-        header('Location: views/admin/index.php');
-    }
-}
+// session_start();
+// if(isset($_SESSION['user_id'])){
+//     if(isset($_SESSION['role']) == 'student'){
+//         header('Location: views/student/index.php');
+//     }
+//     else if(isset($_SESSION['role']) == 'administrator'){
+//         header('Location: views/admin/index.php');
+//     }
+// }
 ?>
 
 

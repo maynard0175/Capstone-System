@@ -1,12 +1,12 @@
 <?php
-session_start();
-if (!isset($_SESSION['user_id'])) {
+// session_start();
+// if (!isset($_SESSION['user_id'])) {
 
-    header('Location: ../../confirmation.php');
-}
-if ($_SESSION['role'] != 'student') {
-    header('Location: ../admin/index.php');
-}
+//     header('Location: ../../confirmation.php');
+// }
+// if ($_SESSION['role'] != 'student') {
+//     header('Location: ../admin/index.php');
+// }
 
 
 

@@ -45,7 +45,7 @@ if(isset($_SESSION['user_id'])){
         <!-- Login Form -->
         <form id="login-form" method="post" class="w-full flex flex-col gap-4" autocomplete="off">
             <!-- Email Field -->
-            <input type="hidden" id="type" name="type" value="<?php echo $type; ?>">
+            <input type="hidden" id="type" name="type" value="<?php $type ?>">
             <div class="relative w-full">
 
                 <input type="email" id="email" name="email" required
@@ -126,10 +126,14 @@ if(isset($_SESSION['user_id'])){
             if (response.ok) {
                 // Clear the form
                 document.getElementById('login-form').reset();
-                if (result.user_type === "student") {
+                if (result.user_type == "student") {
                     window.location.href = "views/student/index.php";
-                } else if (result.user_type === "administrator") {
-                    window.location.href = "views/admin/index.php";
+                } else if (result.user_type == "administrator") {
+                    alert('You are an admin!:' + result.user_type);
+                    setTimeout(() => {
+                            window.location.href = "views/admin/index.php"
+                        }
+                    , 2500);
                 }
 
 
