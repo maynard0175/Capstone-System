@@ -1,23 +1,22 @@
-<?php 
-// session_start();
-// if(isset($_SESSION['user_id'])){
-//     if(isset($_SESSION['role']) == 'student'){
-//         header('Location: views/student/index.php');
-//     }
-//     else if(isset($_SESSION['role']) == 'administrator'){
-//         header('Location: views/admin/index.php');
-//     }
-// }
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel</title>
+    <link rel="stylesheet" href="../../assets/css/admin_panel/styles.css" />
+    <script src="../../assets/js/admin.js"></script>
+    <link rel="stylesheet" href="../../assets/css/admin_panel/resources/boxicons.min.css" />
+    <script src="../../assets/css/admin_panel/resources/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css" />
+    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body id="body-pd">
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
@@ -31,9 +30,9 @@
         </nav>
     </div>
     <!--Container Main start-->
-    <div class="height-100 bg-light">
-        <h4>Main Components</h4>
+    <div class="mt-5 height-100 p-5 bg-danger container-fluid">
+        <h2>Main Components</h2>
     </div>
     <!--Container Main end-->
-</body>
+
 </html>

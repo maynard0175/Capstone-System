@@ -3,7 +3,7 @@
 :root {
     --header-height: 3rem;
     --nav-width: 68px;
-    --first-color: #4723D9;
+    --first-color: #090321;
     --first-color-light: #AFA5D9;
     --white-color: #F7F6FB;
     --body-font: 'Nunito', sans-serif;
@@ -27,7 +27,7 @@ body {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none !important
 }
 
 .header {
@@ -111,7 +111,7 @@ a {
     position: relative;
     color: var(--first-color-light);
     margin-bottom: 1.5rem;
-    transition: .3s
+    transition: .3s;
 }
 
 .nav_link:hover {
@@ -141,10 +141,6 @@ a {
     width: 2px;
     height: 32px;
     background-color: var(--white-color)
-}
-
-.height-100 {
-    height: 100vh
 }
 
 @media screen and (min-width: 768px) {
