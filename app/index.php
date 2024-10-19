@@ -1,14 +1,17 @@
-<?php 
+<?php
 session_start();
-if(isset($_SESSION['user_id'])){
-    if(isset($_SESSION['role']) == 'student'){
-        header('Location: views/student/index.php');
-    }
-    else if(isset($_SESSION['role']) == 'administrator'){
+if (isset($_SESSION['user_id'])) {
+    // Check if the role is set and if it's 'administrator'
+    if (isset($_SESSION['role']) && $_SESSION['role'] === 'administrator') {
         header('Location: views/admin/index.php');
+        exit(); // Ensure the script stops after redirection
+    } else {
+        header('Location: views/student/index.php');
+        exit(); // Ensure the script stops after redirection
     }
 }
 ?>
+
 
 
 <!DOCTYPE html>
