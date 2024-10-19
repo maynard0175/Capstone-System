@@ -55,10 +55,10 @@
                 <div class="collapse" id="messageSubmenu">
                     <ul class="list-unstyled ps-4">
                         <li>
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Pending Registration</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Pending</a>
                         </li>
                         <li class=""> <!-- Small margin below -->
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed Registration</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed</a>
                         </li>
                     </ul>
                 </div>
@@ -88,7 +88,7 @@
                             <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Class</a>
                         </li>
                         <li class=""> <!-- Small margin below -->
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Class Schedule</a>
+                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i>Schedule</a>
                         </li>
                     </ul>
                 </div>
