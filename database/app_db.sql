@@ -43,7 +43,7 @@ CREATE TABLE `tbl_users` (
 
 INSERT INTO `tbl_users` (`id`, `first_name`, `last_name`, `email`, `password`, `role`, `is_privacy_agree`) VALUES
 (9, 'fName', 'lName', 'test@test.com', '$2y$10$GaS.0T31GR8Tk4k04kocqeOdK762PNQooXK/p25BoO0o6ihsyDTYC', 'student', 1),
-(10, 'maynard b', 'bihasa', 'maynardbihasa1@gmail.com', '$2y$10$.rUxx3JAr2kChRUStWkXwuRUmu/SNG8yzHNS83D3pytnfI8OwLadW', 'student', 1),
+(10, 'maynard b', 'bihasa', 'maynardbihasa1@gmail.com', '$2y$10$.rUxx3JAr2kChRUStWkXwuRUmu/SNG8yzHNS83D3pytnfI8OwLadW', 'administrator', 1),
 (11, 'Jaspher', 'Bagor', 'jaspherbagor0357@gmail.com', '$2y$10$m8AEhxZtpzy9tc1r2vk2I.8MAZ00rn0TQ7mbJpniHqD2BsYxb7Pl.', 'student', 1);
 
 --
