@@ -58,7 +58,7 @@
                             <a href="pending.php" class="nav_link active"><i class='bx bx-chevron-right nav_icon'></i> Pending</a>
                         </li>
                         <li class=""> <!-- Small margin below -->
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed</a>
+                            <a href="completed.php" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed</a>
                         </li>
                     </ul>
                 </div>

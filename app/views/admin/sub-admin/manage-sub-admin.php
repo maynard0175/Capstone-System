@@ -120,6 +120,7 @@
         <h4 class="fw-semibold mb-3">Manage Sub Admins</h4>
         <div class="d-flex justify-content-end mb-2">
             <a href="#" class="btn btn-success fw-semibold"><i class='bx bxs-plus-circle fs-5'></i> Add</a>
+
         </div>
         <div class="table-responsive">
             
@@ -143,6 +144,12 @@
                             <div class="d-flex">
                             <a href="#" class="btn btn-primary me-2"><i class='bx bx-edit'></i></a>
                             <a href="#" class="btn btn-danger"><i class='bx bxs-trash-alt'></i></a>
+                        
+                            <a href
+                                <!--Yung href= pang link yan either function or another php page, as you can see walang
+                                naka lagay dito, you need to make a method for deleting user (either by id or whole) 
+                                and then link it header-->
+
                             </div>
                         </td>
                     </tr>

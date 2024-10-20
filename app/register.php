@@ -50,6 +50,7 @@ if(isset($_SESSION['user_id'])){
     </style>
 </head>
 
+    <!-- Inside this body it needs a parsing method, kung ano man ginagamit sa framework nyo -->
 <body class="bg-[#B7C9E2] flex items-center justify-center min-h-screen p-4">
 
     <!-- Modal -->
