@@ -137,10 +137,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>01-22-0694</td>
-                        <td>De Padua</td>
-                        <td>Maria Janela</td>
-                        <td>janela@gmail.com</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td>
                             <div class="d-flex">
                                 <a href="#" class="btn btn-success me-2" data-toggle="tooltip" data-placement="top" title="View Profile"><i class="bi bi-eye"></i></a>
