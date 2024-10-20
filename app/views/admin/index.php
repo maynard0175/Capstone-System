@@ -134,7 +134,7 @@
                             <h1 class="card-title fw-bolder ms-3">0</h1>
                             <h5 class="card-text p-1 fw-semibold">Registered</h5>
                             <hr class="my-1">
-                            <a href="#" class="btn btn-transparent w-100 fw-semibold py-0 my-0">More Info</a>
+                            <a href="registration/completed.php" class="btn btn-transparent w-100 fw-semibold py-0 my-0">More Info</a>
                         </div>
                     </div>
                 </div>

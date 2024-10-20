@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body id="body-pd">
@@ -58,7 +59,7 @@
                             <a href="pending.php" class="nav_link active"><i class='bx bx-chevron-right nav_icon'></i> Pending</a>
                         </li>
                         <li class=""> <!-- Small margin below -->
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed</a>
+                            <a href="completed.php" class="nav_link active"><i class='bx bx-chevron-right nav_icon'></i> Completed</a>
                         </li>
                     </ul>
                 </div>
@@ -117,7 +118,7 @@
     <!--Container Main start-->
 <div class="mt-5 p-5 container-fluid component-container">
     <div class="container mt-2">
-        <h4 class="fw-semibold mb-3">Pending Registration</h4>
+        <h4 class="fw-semibold mb-3">Completed Registration</h4>
         <div class="d-flex justify-content-end mb-2">
             <input type="text" class="form-control search-input">
             <a href="#" class="btn btn-success fw-semibold">Search</a>
@@ -142,7 +143,7 @@
                         <td>janela@gmail.com</td>
                         <td>
                             <div class="d-flex">
-                                <a href="#" class="btn btn-success me-2" data-toggle="tooltip" data-placement="top" title="Accept"><i class='bx bxs-check-circle'></i></a>
+                                <a href="#" class="btn btn-success me-2" data-toggle="tooltip" data-placement="top" title="View Profile"><i class="bi bi-eye"></i></a>
                                 <a href="#" class="btn btn-primary me-2" data-toggle="tooltip" data-placement="top" title="Edit"><i class='bx bx-edit'></i></a>
                                 <a href="#" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class='bx bxs-trash-alt'></i></a>
                             </div>
