@@ -55,10 +55,10 @@
                 <div class="collapse" id="messageSubmenu">
                     <ul class="list-unstyled ps-4">
                         <li>
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Pending</a>
+                            <a href="../registration/pending.php" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Pending</a>
                         </li>
                         <li class=""> <!-- Small margin below -->
-                            <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed</a>
+                            <a href="../registration/completed.php" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Completed</a>
                         </li>
                     </ul>
                 </div>

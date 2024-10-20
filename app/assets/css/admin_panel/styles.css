@@ -236,3 +236,7 @@ table {
   tr:nth-child(even) {
     background-color: #ecf1ed;
   }
+
+  .search-input {
+    width:180px !important
+  }
