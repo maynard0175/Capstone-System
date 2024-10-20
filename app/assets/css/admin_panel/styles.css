@@ -182,3 +182,61 @@ a {
         padding-left: calc(var(--nav-width) + 188px)
     }
 }
+
+.component-container {
+    background: #b7c9e2;
+    min-height:100vh !important
+}
+
+.card {
+    height: 140px !important
+}
+
+.sub-admin-card {
+    background: #c1ff72 !important;
+}
+
+.registered-card {
+    background: #ff5757 !important
+}
+
+.registrant-card {
+    background: #38b6ff !important
+}
+
+.instructor-card {
+    background: #e8f063 !important;
+}
+
+.class-card {
+    background: #76c2af !important;
+}
+
+.sub-admin-card:hover, .registered-card:hover, .registrant-card:hover, .instructor-card:hover, .class-card:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #131212 !important;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th, td {
+    background:white !important
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ecf1ed;
+  }
+
+  .search-input {
+    width:180px !important
+  }
