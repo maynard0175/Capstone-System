@@ -115,8 +115,61 @@
 
 
     <!--Container Main start-->
-    <div class="mt-5 height-100 vh-100 p-5 container-fluid bg-secondary">
-        <h2>Main Components</h2>
+    <div class="mt-5 p-5 container-fluid component-container">
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 sub-admin-card">
+                        <div class="card-body p-1">
+                            <h1 class="card-title fw-bolder ms-3">0</h1>
+                            <h5 class="card-text p-3 fw-semibold">Sub Admins</h5>
+                            <hr class="my-1">
+                            <a href="#" class="btn btn-transparent w-100 fw-semibold py-0 my-0">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 registered-card">
+                        <div class="card-body p-1">
+                            <h1 class="card-title fw-bolder ms-3">0</h1>
+                            <h5 class="card-text p-3 fw-semibold">Registered</h5>
+                            <hr class="my-1">
+                            <a href="#" class="btn btn-transparent w-100 fw-semibold py-0 my-0">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 registrant-card">
+                        <div class="card-body p-1">
+                            <h1 class="card-title fw-bolder ms-3">0</h1>
+                            <h5 class="card-text p-3 fw-semibold">Number of Registrants</h5>
+                            <hr class="my-1">
+                            <a href="#" class="btn btn-transparent w-100 fw-semibold my-0 py-0">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 instructor-card">
+                        <div class="card-body p-1">
+                            <h1 class="card-title fw-bolder ms-3">0</h1>
+                            <h5 class="card-text p-3 fw-semibold">Instructors</h5>
+                            <hr class="my-1">
+                            <a href="#" class="btn btn-transparent w-100 fw-semibold my-0 py-0">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 class-card">
+                        <div class="card-body p-1">
+                            <h1 class="card-title fw-bolder ms-3">0</h1>
+                            <h5 class="card-text p-3 fw-semibold">Classes</h5>
+                            <hr class="my-1">
+                            <a href="#" class="btn btn-transparent w-100 fw-semibold my-0 py-0">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--Container Main end-->
 
