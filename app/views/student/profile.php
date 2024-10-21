@@ -70,7 +70,7 @@
                     </div>
                     <h5 class="text-center">MAYNARD BIHASA</h5>
                     <h6 class="text-secondary text-center">0000-00-00</h6>
-                    <h5 class="text-secondary text-center">BSIT-AP-3</h5>
+                    <h5 class="text-secondary text-center"></h5>
                     <hr>
                     <div class="d-flex align-content-between justify-content-between py-0 my-0">
                         <p class="fw-semibold my-0 py-0">Status</p>

@@ -121,7 +121,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 sub-admin-card">
                         <div class="card-body p-1">
-                            <h1 class="card-title fw-bolder ms-3">1</h1>
+                            <h1 class="card-title fw-bolder ms-3">0</h1>
                             <h5 class="card-text p-1 fw-semibold">Sub Admins</h5>
                             <hr class="my-1">
                             <a href="sub-admin/manage-sub-admin.php" class="btn btn-transparent w-100 fw-semibold py-0 my-0">More Info</a>

@@ -212,7 +212,7 @@ if(isset($_SESSION['user_id'])){
                 first_name: document.getElementById('first_name').value,
                 last_name: document.getElementById('last_name').value,
                 email: document.getElementById('email').value,
-                role: document.getElementById('role').value,
+                role: document.getElementById('select').value,
                 password: document.getElementById('password').value,
                 retype_password: document.getElementById('retype_password').value,
                 privacy: document.getElementById('privacy').checked

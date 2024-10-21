@@ -136,10 +136,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>De Padua</td>
-                        <td>Maria Janela</td>
-                        <td>janela@gmail.com</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td>
                             <div class="d-flex">
                             <a href="onClick" class="btn btn-primary me-2"><i class='bx bx-edit'></i></a>
