@@ -73,7 +73,7 @@
     <div class="max-w-md w-full p-6 rounded-lg flex flex-col items-center justify-center gap-4">
 
         <img src="./assets/img/logo.png" alt="Profile Picture" class="w-26 h-26 md:w-34 md:h-34 rounded-full object-cover">
-        <p class="text-lg md:text-xl font-medium text-center">Register an account</p>
+        <p class="text-lg md:text-xl font-medium text-center">Add Sub Admin Account</p>
 
         <!-- Registration Form -->
         <form id="registration-form" class="w-full flex flex-col gap-2">
@@ -81,7 +81,7 @@
             <div class="relative w-full">
 
                 <input type="text" id="first_name" name="first-name" required
-                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Fisrtname">
+                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Firstname">
                     <i class=" right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
                     <i class="fas fa-user absolute right-3 top-6 transform -translate-y-1/2 text-gray-500"></i>
             </div>
@@ -93,7 +93,6 @@
                     class="mt-1.2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Lastname">
                     <i class=" right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
                     <i class="fas fa-user absolute right-3 top-5 transform -translate-y-1/2 text-gray-500"></i>
-                    Please use your true name
             </div> 
 
             <!-- Email -->
@@ -102,20 +101,6 @@
                 <input type="text" id="email" name="email" required
                     class="mt-3 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Email">
                 <i class="fas fa-envelope absolute right-3 top-8 transform -translate-y-1/2 text-gray-500"></i>
-                Please use a valid and active email address
-
-            </div>
-
-            <!-- Role Selection -->
-            <div class="w-full">
-        
-                <select id="select" name="select" required
-                    class="mt-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                    <option value="" disabled selected>--Select--</option>
-                    <option value="student">Old Student</option>
-                    <option value="student">Freshmen/Transferee</option>
-                    
-                </select>
             </div>
 
             <!-- Password -->
@@ -147,9 +132,8 @@
                 Sign Up
             </button>
         </form>
-        <a href="confirmation.php" class="text-blue-900">I already have an account</a>
-        <a href="index.php" class="text-blue-900 underline"><i class="fas fa-home"></i>
-            Home</a>
+        <a href="views/admin/index.php" class="text-blue-900 underline"><i class="fas fa-home"></i>
+            Back to Dashboard</a>
             <img src="./assets/img/infotech.png" alt="Profile Picture" class="w-24 h-24 md:w-32 md:h-32 mt-5 rounded-full object-cover infotech-img img-fluid">
 
     </div>
@@ -212,7 +196,7 @@
                 first_name: document.getElementById('first_name').value,
                 last_name: document.getElementById('last_name').value,
                 email: document.getElementById('email').value,
-                role: document.getElementById('select').value,
+                role: 'administrator',
                 password: document.getElementById('password').value,
                 retype_password: document.getElementById('retype_password').value,
                 privacy: document.getElementById('privacy').checked
@@ -238,6 +222,10 @@
                         text: "Registration successful!",
                         icon: "success"
                     });
+
+                    setTimeout(()=> {
+                        window.location.href = 'views/admin/index.php'
+                    }, 2000)
 
                 } else {
                     Swal.fire({

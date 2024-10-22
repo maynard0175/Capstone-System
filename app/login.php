@@ -129,7 +129,6 @@ if(isset($_SESSION['user_id'])){
                 if (result.user_type == "student") {
                     window.location.href = "views/student/index.php";
                 } else if (result.user_type == "administrator") {
-                    alert('You are an admin!:' + result.user_type);
                     setTimeout(() => {
                             window.location.href = "views/admin/index.php"
                         }
