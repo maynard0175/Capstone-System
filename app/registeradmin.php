@@ -112,7 +112,7 @@ if(isset($_SESSION['user_id'])){
                 <select id="select" name="select" required
                     class="mt-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
                     <option value="" disabled selected>--Select--</option>
-                    <option value="administrator">Old Student</option>
+                    <option value="student">Old Student</option>
                     <option value="student">Freshmen/Transferee</option>
                     
                 </select>
