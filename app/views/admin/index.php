@@ -42,6 +42,9 @@
                         <li>
                             <a href="sub-admin/manage-sub-admin.php" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> Manage</a>
                         </li>
+                        <li>
+                            <a href="" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i>Add Sub Admin</a>
+                        </li>
                         <!-- <li class="">
                             <a href="#" class="nav_link"><i class='bx bx-chevron-right nav_icon'></i> View Users</a>
                         </li> -->
