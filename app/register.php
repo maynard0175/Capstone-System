@@ -81,7 +81,7 @@ if(isset($_SESSION['user_id'])){
             <div class="relative w-full">
 
                 <input type="text" id="first_name" name="first-name" required
-                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Fisrtname">
+                    class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Firstname">
                     <i class=" right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
                     <i class="fas fa-user absolute right-3 top-6 transform -translate-y-1/2 text-gray-500"></i>
             </div>
